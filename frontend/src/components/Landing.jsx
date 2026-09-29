@@ -27,7 +27,7 @@ function DashboardMock() {
         </div>
         <div className="mock-greet">
           <span>Good evening,</span>
-          <b>Japnish!</b>
+          <b>Mantra Raj!</b>
         </div>
         <div className="mock-kpis">
           <div className="mock-kpi"><span>Monthly Income</span><b>₹60,000</b><em className="up">+5%</em></div>
@@ -143,15 +143,6 @@ export function Landing({ onGetStarted, onLogin, onTryDemo }) {
           <div className="lhero-btns">
             <button className="btn-primary big" onClick={onGetStarted}>Get Started <span>→</span></button>
             <button className="btn-ghost big" onClick={() => scrollTo('demo')}><span className="play">▶</span> Watch Demo</button>
-          </div>
-          <div className="ltrust">
-            <div className="lavas">
-              <span style={{ background: '#dbeafe', color: '#1d4ed8' }}>MS</span>
-              <span style={{ background: '#dcfce7', color: '#15803d' }}>SB</span>
-              <span style={{ background: '#fef3c7', color: '#b45309' }}>JC</span>
-              <span style={{ background: '#fce7f3', color: '#be185d' }}>KM</span>
-            </div>
-            <p>Built by Team <b>Honey Trap</b> —<br />see the financial storm before it hits.</p>
           </div>
         </div>
         <div className="lhero-mock">
